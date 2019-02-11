@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 @Builder
 public class TargetClass {
 
-    private String aString;
-    private Boolean aFlag;
+    private String name;
+    private Boolean oneFlag;
     private Boolean anotherFlag;
 
 }
