@@ -9,6 +9,7 @@
     <properties>
         <org.mapstruct.version>1.2.0.Final</org.mapstruct.version>
         <spring.version>4.3.15.RELEASE</spring.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
@@ -26,6 +27,12 @@
             <groupId>com.wigball.mapstruct</groupId>
             <artifactId>mapstruct1.3.0.issue.model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
