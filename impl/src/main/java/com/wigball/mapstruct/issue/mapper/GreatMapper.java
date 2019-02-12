@@ -2,11 +2,7 @@ package com.wigball.mapstruct.issue.mapper;
 
 import com.wigball.mapstruct.issue.model.SourceClass;
 import com.wigball.mapstruct.issue.model.TargetClass;
-import org.mapstruct.BeanMapping;
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import org.mapstruct.Mappings;
-import org.mapstruct.ObjectFactory;
+import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
 
 import static java.lang.Boolean.FALSE;
